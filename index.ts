@@ -1,4 +1,4 @@
-#!/usr/bin/env node
+#! /usr/bin/env node
 
 console.clear()
 
@@ -84,3 +84,4 @@ else if(user_req === 'No'){
 
 calc()
 
+    

@@ -1,4 +1,4 @@
-#!/usr/bin/env node
+#! /usr/bin/env node
 console.clear();
 import inquirer from 'inquirer';
 import chalk from 'chalk';

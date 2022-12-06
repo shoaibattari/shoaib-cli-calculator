@@ -1,9 +1,12 @@
 {
-  "name": "ss-cli-calculator",
-  "version": "1.0.0",
+  "name": "shoaib-cli-calculator",
+  "version": "1.2.0",
   "description": "",
   "main": "index.js",
   "type": "module",
+  "bin": {
+    "shoaib-cli-calculator": "index.js"
+  },
   "scripts": {
     "start": "node index.js"
   },
@@ -12,7 +15,7 @@
     "url": "git+https://github.com/shoaibattari/ss-cli-calculator.git"
   },
   "keywords": [],
-  "author": "",
+  "author": "shoaib memon",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/shoaibattari/ss-cli-calculator/issues"
@@ -27,3 +30,4 @@
     "inquirer": "^9.1.4"
   }
 }
+
