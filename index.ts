@@ -6,7 +6,7 @@ console.clear()
 import inquirer from 'inquirer';
 import chalk from 'chalk';
 
-console.log(chalk.green('wellcome to SS calcultor'));
+console.log(chalk.green('wellcome to Shoaib calcultor'));
 console.log(chalk.greenBright('created by SHOAIB MEMON'));
 
 
