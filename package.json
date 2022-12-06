@@ -12,15 +12,15 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/shoaibattari/ss-cli-calculator.git"
+    "url": "git+https://github.com/shoaibattari/shoaib-cli-calculator.git"
   },
-  "keywords": [],
+  "keywords": [], 
   "author": "shoaib memon",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/shoaibattari/ss-cli-calculator/issues"
+    "url": "https://github.com/shoaibattari/shoaib-cli-calculator/issues"
   },
-  "homepage": "https://github.com/shoaibattari/ss-cli-calculator#readme",
+  "homepage": "https://github.com/shoaibattari/shoaib-cli-calculator#readme",
   "devDependencies": {
     "@types/node": "^18.11.10"
   },
