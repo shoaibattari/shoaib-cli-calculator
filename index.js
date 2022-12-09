@@ -9,13 +9,28 @@ async function calc() {
         {
             name: 'number1',
             type: 'number',
-            message: 'enter first number :'
+            message: 'enter first number :',
+            validate: (answer) => {
+                if (isNaN(answer)) {
+                    return chalk.red(`please enter only number
+                        use arrow key for correction`);
+                }
+                return true;
+            }
         },
         {
             name: 'number2',
             type: 'number',
-            message: 'enter second number :'
-        }, {
+            message: 'enter second number :',
+            validate: (answer) => {
+                if (isNaN(answer)) {
+                    return chalk.red(`please enter only number
+                        use arrow key for correction`);
+                }
+                return true;
+            }
+        },
+        {
             name: "option",
             type: "list",
             message: "choose your actions",
